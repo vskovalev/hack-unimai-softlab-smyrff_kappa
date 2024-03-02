@@ -1,3 +1,13 @@
+docker build configuration:
+**docker build -t my-html-app .**
+
+docker run configuration:
+**docker run -d -p 8080:80 my-html-app**
+
+Entrypoint:
+http://127.0.0.1:8080/mac-book-air-5.html
+
+
 A large multinational company has a huge amount of data, which is not always structured in a simple and organized way. This is often due to the inherent challenges of managing such a diverse and dynamic set of information, which is typical for companies with multiple plants and countries.
 
 Scenario:
