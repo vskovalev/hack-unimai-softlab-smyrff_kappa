@@ -1,46 +1,44 @@
-Большая многонациональная компания имеет огромное количество данных, которые не всегда структурированы простым и организованным образом. Это часто обусловлено внутренними трудностями управления таким разнообразным и динамичным набором информации, который характерен для компаний с множеством заводов и стран.
+A large multinational company has a huge amount of data, which is not always structured in a simple and organized way. This is often due to the inherent challenges of managing such a diverse and dynamic set of information, which is typical for companies with multiple plants and countries.
 
-Сценарий:
+Scenario:
 
-Данные:
+Data:
 
-Основные данные распределены по четырем различным системам ERP:
-• Данные о клиентах
-• Данные о поставщиках
-• Список сырьевых материалов
-• Список готовой продукции
-• Список заказов
-• Список отправок
-• Список счетов
-• Складские запасы
-• Индекс качества обслуживания клиентов (PPM, используемый для измерения уровня непригодности на миллион произведенных единиц для конкретного клиента. Обычно предоставляется клиентом, но иногда перехватывается компанией)
-• OTIF (вовремя и полностью)
-• Количество новых кодов, предоставленных каждому клиенту (темп разработки/инноваций)
+The master data is distributed across four different ERP systems:
+• Customer data
+• Supplier data
+• List of raw materials
+• List of finished products
+• Order list
+• List of shipments
+• List of accounts
+• Stocks
+• Customer Experience Index (PPM, used to measure the level of failure per million units produced for a particular customer. Typically provided by the customer, but sometimes intercepted by the company)
+• OTIF (on time and in full)
+• Number of new codes provided to each client (development/innovation rate)
 
-Из-за постоянного расширения и развития компании эти данные хранятся на различных ИТ-платформах, созданных в течение роста и эволюции компании. Доступные данные не обновляются в режиме реального времени и иногда могут быть несогласованными между разными системами, на которых они распределены, что приводит к принятию решений, не всегда своевременных или точных.
+Due to the constant expansion and development of the company, this data is stored on various IT platforms created during the growth and evolution of the company. The available data is not updated in real time and can sometimes be inconsistent between the different systems on which it is distributed, resulting in decisions that are not always timely or accurate.
 
-Основная деятельность компании связана с закупкой сырья и его трансформацией в готовую продукцию, адаптированную под требования клиентов. Производство осуществляется по заказу, в то время как сырье стандартно и управляется в запасах.
+The main activity of the company is related to the purchase of raw materials and their transformation into finished products, adapted to customer requirements. Manufacturing is done to order, while raw materials are standard and managed in inventory.
 
-Проблема, которую необходимо решить:
+Problem to be solved:
 
-Хотя закупки, совершаемые крупными клиентами компании, могут быть мониторингом и анализироваться с большей точностью, нет такого подробного анализа для малых клиентов. Несмотря на то, что малые клиенты генерируют меньший объем оборота, их количество значительно превышает число крупных клиентов и поэтому они крайне важны для общего финансового здоровья компании. В настоящее время мониторинг осуществляется субъективно. Кроме того, нет системы, которая выявляла бы задержки в получении графиков поставок.
+While purchases made by a company's large customers can be monitored and analyzed with greater accuracy, there is no such detailed analysis for smaller customers. Although small customers generate less turnover, they are significantly more numerous than large customers and are therefore critical to the overall financial health of a company. Currently, monitoring is carried out subjectively. In addition, there is no system that detects delays in receiving delivery schedules.
 
-Используя историческую информацию компании, сбор слухов и мнений, а также актуальную информацию из сети, как можно использовать генеративный интеллект для выявления предварительных признаков оттока клиентов или существенного снижения стоимости? Вам поручено разработать конкретную и реальную концепцию через песочницу решений, чтобы помочь компании предвидеть потребности клиентов и предотвращать их пер
+Using historical company information, rumors and opinions, and relevant information from the web, how can you use generative intelligence to identify early signs of customer churn or significant decline in value? You are tasked with developing a specific and actionable concept through a solution sandbox to help the company anticipate customer needs and prevent them
 
-еход к конкурентам.
+going to competitors.
 
-Задача:
+Task:
 
-• Решение должно быть реализовано в виде песочницы.
-• Оно должно быть способно собирать данные из различных датамартов и систем ERP.
-• Оно должно предоставлять аналитический вывод.
-• Оно должно предлагать несколько решений, адаптированных под конкретный тип анализируемого клиента.
+• The solution must be implemented as a sandbox.
+• It should be able to collect data from various datamarts and ERP systems.
+• It should provide analytical output.
+• It should offer multiple solutions tailored to the specific type of customer being analyzed.
 
-Требования, с которыми должно справляться решение:
+Requirements that the solution must cope with:
 
-• Почему клиент выбирает конкурента?
-• Что можно сделать для улучшения лояльности клиента?
-• Как можно предвидеть недовольство клиента?
-• Сколько времени следует уделять каждому клиенту?
-
-Фокус на принятии решений компании на основе имеющихся данных:
+• Why does the client choose a competitor?
+• What can be done to improve customer loyalty?
+• How can you anticipate customer dissatisfaction?
+• How much time should be devoted to each client?
